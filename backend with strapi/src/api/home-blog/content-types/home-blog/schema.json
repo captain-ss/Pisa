@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_blogs",
+  "info": {
+    "singularName": "home-blog",
+    "pluralName": "home-blogs",
+    "displayName": "homeBlog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
